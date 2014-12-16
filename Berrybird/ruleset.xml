@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<ruleset name="Berrybird">
+    <description>The Berrybird coding standard.</description>
+
+    <!-- Based on PSR-2 coding standard -->
+    <rule ref="PSR2">
+        <!-- We have custom rules for control structure spaces -->
+        <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace" />
+    </rule>
+
+    <!-- Commenting -->
+    <rule ref="Squiz.Commenting.DocCommentAlignment" />
+
+    <!-- Clean code -->
+    <rule ref="Generic.Formatting.MultipleStatementAlignment">
+        <severity>3</severity>
+    </rule>
+    <rule ref="Generic.Commenting.Todo.CommentFound">
+        <message>Please review this TODO comment: %s</message>
+        <severity>3</severity>
+    </rule>
+    <rule ref="Generic.Commenting.Fixme.CommentFound">
+        <message>Please review this FIXME comment: %s</message>
+        <severity>3</severity>
+    </rule>
+
+    <!-- Quality assurance -->
+    <rule ref="Squiz.CodeAnalysis.EmptyStatement" />
+    <rule ref="Squiz.Commenting.EmptyCatchComment" />
+    <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter" />
+    <!--
+    Instead of the following shiffs use PHPMD for QA:
+     - Generic.CodeAnalysis.ForLoopShouldBeWhileLoop
+     - Generic.CodeAnalysis.ForLoopWithTestFunctionCall
+     - Generic.CodeAnalysis.JumbledIncrementer
+     - Generic.CodeAnalysis.UnconditionalIf
+     - Generic.CodeAnalysis.UnnecessaryFinalModifier
+     - Generic.CodeAnalysis.UselessOverridingMethod
+    -->
+</ruleset>
