@@ -1,0 +1,64 @@
+Berrybird PHP CodeSniffer coding standard rules
+===============================================
+
+Release: 0.1.0-dev
+
+
+Description
+-----------
+
+PHP CodeSniffer coding standard rules we use at Berrybird. The coding
+standard is based on PSR-2 (http://www.php-fig.org/psr/psr-2) with a
+couple of modifications and additions. It also includes some quality
+assurance sniffs.
+
+
+Installation
+------------
+
+Requirements:
+
+ - PHP 5.3.3 or newer
+ - PHP CodeSniffer
+
+Installation using Composer
+
+'composer.json' definition:
+
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/berrybird/lint-phpcs"
+    }],
+    "require-dev": {
+        "berrybird/linter-phpcs": "0.1.x-dev"
+    }
+
+
+Documentation
+-------------
+
+N/A
+
+Contributing
+------------
+
+Open an issue or send a pull request on Github
+(https://github.com/berrybird/linter-phpcs).
+
+
+Authors
+-------
+
+Maintainer:
+
+ - Miodrag Tokić
+
+
+License
+-------
+
+This package is released under the BSD 3-clause License. It includes
+sniff classes taken from other projects. Check sniff classes for their
+authors and corresponding licenses.
+
+
