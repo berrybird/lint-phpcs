@@ -7,10 +7,10 @@ Release: 0.1.0-dev
 Description
 -----------
 
-PHP CodeSniffer coding standard rules we use at Berrybird. The coding
-standard is based on PSR-2 (http://www.php-fig.org/psr/psr-2) with a
-couple of modifications and additions. It also includes some quality
-assurance sniffs.
+PHP CodeSniffer (https://github.com/squizlabs/PHP_CodeSniffer) coding
+standard rules we use at Berrybird. The coding standard is based on
+PSR-2 (http://www.php-fig.org/psr/psr-2) with a couple of modifications
+and additions. It also includes some quality assurance sniffs.
 
 
 Installation
