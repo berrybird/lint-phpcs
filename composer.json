@@ -1,0 +1,15 @@
+{
+    "name": "berrybird/lint-phpcs",
+    "type": "library",
+    "description": "Berrybird PHP CodeSniffer coding standard rules",
+    "homepage": "https://github.com/berrybird/lint-phpcs",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/berrybird/lint-phpcs/issues",
+        "source": "https://github.com/berrybird/lint-phpcs"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "squizlabs/php_codesniffer": "dev-master"
+    }
+}
