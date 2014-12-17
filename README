@@ -30,7 +30,7 @@ Installation using Composer
         "url": "https://github.com/berrybird/lint-phpcs"
     }],
     "require-dev": {
-        "berrybird/linter-phpcs": "0.1.x-dev"
+        "berrybird/lint-phpcs": "dev-develop"
     }
 
 
