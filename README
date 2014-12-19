@@ -1,7 +1,7 @@
-Berrybird PHP CodeSniffer coding standard rules
-===============================================
+Berrybird PHP CodeSniffer lint rules
+====================================
 
-Release: 0.1.0-dev
+Current release: 0.1.0-dev
 
 
 Description
@@ -21,9 +21,9 @@ Requirements:
  - PHP 5.3.3 or newer
  - PHP CodeSniffer
 
-Installation using Composer
+Installing using Composer:
 
-'composer.json' definition:
+'composer.json' definition
 
     "repositories": [{
         "type": "vcs",
@@ -39,11 +39,12 @@ Documentation
 
 N/A
 
+
 Contributing
 ------------
 
 Open an issue or send a pull request on Github
-(https://github.com/berrybird/linter-phpcs).
+(https://github.com/berrybird/lint-phpcs).
 
 
 Authors
@@ -54,8 +55,8 @@ Maintainer:
  - Miodrag Tokić
 
 
-License
--------
+Copyright
+---------
 
 Copyright (C) 2014 Miodrag Tokić.
 
