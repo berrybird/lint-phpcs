@@ -26,9 +26,9 @@
     </rule>
 
     <!-- Quality assurance -->
-    <rule ref="Squiz.CodeAnalysis.EmptyStatement" />
-    <rule ref="Squiz.Commenting.EmptyCatchComment" />
+    <rule ref="Generic.CodeAnalysis.EmptyStatement" />
     <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter" />
+    <rule ref="Squiz.Commenting.EmptyCatchComment" />
     <!--
     Instead of the following shiffs use PHPMD for QA:
      - Generic.CodeAnalysis.ForLoopShouldBeWhileLoop
