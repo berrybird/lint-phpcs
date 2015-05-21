@@ -2,6 +2,8 @@
 /**
  * Unit test class for the TypeCasting sniff.
  *
+ * @group  Berrybird
+ *
  * @author     Kohana Team
  * @copyright  Copyright (C) 2011 Kohana Team
  * @license    BSD-3-Clause
