@@ -1,9 +1,4 @@
 <?php
-
-namespace Berrybird\Tests\Functions;
-
-use AbstractSniffUnitTest;
-
 /**
  * Unit test class for the RegularExpression sniff.
  *
@@ -11,7 +6,7 @@ use AbstractSniffUnitTest;
  * @copyright  Copyright (C) 2011 Kohana Team
  * @license    BSD-3-Clause
  */
-class RegularExpressionUnitTest extends AbstractSniffUnitTest
+class Berrybird_Tests_Functions_RegularExpressionUnitTest extends AbstractSniffUnitTest
 {
     /**
      * {@inheritdoc}

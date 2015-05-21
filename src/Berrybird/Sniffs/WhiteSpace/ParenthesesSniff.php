@@ -1,10 +1,4 @@
 <?php
-
-namespace Berrybird\Sniffs\WhiteSpace;
-
-use PHP_CodeSniffer_File;
-use PHP_CodeSniffer_Sniff;
-
 /**
  * Whitespace parentheses sniff.
  *
@@ -15,7 +9,7 @@ use PHP_CodeSniffer_Sniff;
  * @copyright  Copyright (C) 2011 Kohana Team
  * @license    BSD-3-Clause
  */
-class ParenthesesSniff implements PHP_CodeSniffer_Sniff
+class Berrybird_Sniffs_WhiteSpace_ParenthesesSniff implements PHP_CodeSniffer_Sniff
 {
     /**
      * {@inheritdoc}

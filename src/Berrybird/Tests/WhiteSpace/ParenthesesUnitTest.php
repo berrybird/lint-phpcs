@@ -1,9 +1,4 @@
 <?php
-
-namespace Berrybird\Tests\WhiteSpace;
-
-use AbstractSniffUnitTest;
-
 /**
  * Unit test class for the Parentheses sniff.
  *
@@ -11,7 +6,7 @@ use AbstractSniffUnitTest;
  * @copyright  Copyright (C) 2011 Kohana Team
  * @license    BSD-3-Clause
  */
-class ParenthesesUnitTest extends AbstractSniffUnitTest
+class Berrybird_Tests_WhiteSpace_ParenthesesUnitTest extends AbstractSniffUnitTest
 {
     /**
      * {@inheritdoc}

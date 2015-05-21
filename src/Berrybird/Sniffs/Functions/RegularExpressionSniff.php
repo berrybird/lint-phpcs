@@ -1,10 +1,4 @@
 <?php
-
-namespace Berrybird\Sniffs\Functions;
-
-use PHP_CodeSniffer_File;
-use PHP_CodeSniffer_Sniff;
-
 /**
  * Regular expression sniff.
  *
@@ -20,7 +14,7 @@ use PHP_CodeSniffer_Sniff;
  * @copyright  Copyright (C) 2011 Kohana Team
  * @license    BSD-3-Clause
  */
-class RegularExpressionSniff implements PHP_CodeSniffer_Sniff
+class Berrybird_Sniffs_Functions_RegularExpressionSniff implements PHP_CodeSniffer_Sniff
 {
     /**
      * {@inheritdoc}

@@ -1,10 +1,4 @@
 <?php
-
-namespace Berrybird\Sniffs\Operators;
-
-use PHP_CodeSniffer_File;
-use PHP_CodeSniffer_Sniff;
-
 /**
  * Comparison operators sniff.
  *
@@ -15,7 +9,7 @@ use PHP_CodeSniffer_Sniff;
  * @copyright  Copyright (C) 2011 Kohana Team
  * @license    BSD-3-Clause
  */
-class ComparisonOperatorSniff implements PHP_CodeSniffer_Sniff
+class Berrybird_Sniffs_Operators_ComparisonOperatorSniff implements PHP_CodeSniffer_Sniff
 {
     /**
      * {@inheritdoc}

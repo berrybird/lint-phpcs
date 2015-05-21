@@ -1,9 +1,4 @@
 <?php
-
-namespace Berrybird\Tests\Classes;
-
-use AbstractSniffUnitTest;
-
 /**
  * Unit test class for EmptyConstructorCallSniff.
  *
@@ -11,7 +6,7 @@ use AbstractSniffUnitTest;
  * @copyright  Copyright (C) 2011 Kohana Team
  * @license    BSD-3-Clause
  */
-class EmptyConstructorCallUnitTest extends AbstractSniffUnitTest
+class Berrybird_Tests_Classes_EmptyConstructorCallUnitTest extends AbstractSniffUnitTest
 {
     /**
      * {@inheritdoc}

@@ -1,9 +1,4 @@
 <?php
-
-namespace Berrybird\Tests\Commenting;
-
-use AbstractSniffUnitTest;
-
 /**
  * Unit test class for OneLineCommentSniff.
  *
@@ -11,7 +6,7 @@ use AbstractSniffUnitTest;
  * @copyright  Copyright (C) 2011 Kohana Team
  * @license    BSD-3-Clause
  */
-class OneLineCommentUnitTest extends AbstractSniffUnitTest
+class Berrybird_Tests_Commenting_OneLineCommentUnitTest extends AbstractSniffUnitTest
 {
     /**
      * {@inheritdoc}

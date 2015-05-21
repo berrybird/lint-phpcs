@@ -1,9 +1,4 @@
 <?php
-
-namespace Berrybird\Tests\Operators;
-
-use AbstractSniffUnitTest;
-
 /**
  * Unit test class for the TernaryOperator sniff.
  *
@@ -11,7 +6,7 @@ use AbstractSniffUnitTest;
  * @copyright  Copyright (C) 2011 Kohana Team
  * @license    BSD-3-Clause
  */
-class TernaryOperatorUnitTest extends AbstractSniffUnitTest
+class Berrybird_Tests_Operators_TernaryOperatorUnitTest extends AbstractSniffUnitTest
 {
     /**
      * {@inheritdoc}
