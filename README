@@ -33,6 +33,9 @@ Installing using Composer:
         "berrybird/lint-phpcs": "dev-develop"
     }
 
+Add Berrybird standard to the PHP CodeSniffer include paths:
+
+    $ phpcs --config-set installed_paths /absolute/path/to/berrybird/src
 
 Documentation
 -------------
