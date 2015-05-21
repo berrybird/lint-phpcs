@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/4.0/phpunit.xsd"
+    colors="true"
+>
+    <testsuites>
+        <testsuite name="All included PHP CodeSniffer standards">
+            <file>vendor/squizlabs/php_codesniffer/tests/AllTests.php</file>
+        </testsuite>
+    </testsuites>
+
+    <groups>
+        <include>
+            <group>Berrybird</group>
+        </include>
+    </groups>
+</phpunit>
