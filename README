@@ -37,6 +37,7 @@ Add Berrybird standard to the PHP CodeSniffer include paths:
 
     $ phpcs --config-set installed_paths /absolute/path/to/berrybird/src
 
+
 Documentation
 -------------
 
@@ -65,6 +66,7 @@ Copyright (C) 2014-2015 Miodrag Tokić.
 
 Released under the BSD-3-Clause License. See the LICENSE file for
 details.
+
 
 Notes
 -----
