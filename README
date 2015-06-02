@@ -64,12 +64,7 @@ Copyright
 
 Copyright (C) 2014-2015 Miodrag Tokić.
 
-Released under the BSD-3-Clause License. See the LICENSE file for
-details.
-
-
-Notes
------
+Released under the MIT License. See the LICENSE file for details.
 
 This package includes sniff classes taken from other projects. Check
 corresponding files for their authors and licenses.
