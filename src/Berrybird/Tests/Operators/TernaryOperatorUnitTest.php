@@ -16,8 +16,10 @@ class Berrybird_Tests_Operators_TernaryOperatorUnitTest extends AbstractSniffUni
     public function getErrorList()
     {
         return array(
-            4 => 2,
-            6 => 2
+            2  => 1,
+            5  => 2,
+            7  => 2,
+            29 => 2,
         );
     }
 

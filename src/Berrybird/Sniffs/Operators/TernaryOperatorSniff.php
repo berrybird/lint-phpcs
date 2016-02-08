@@ -53,7 +53,7 @@ class Berrybird_Sniffs_Operators_TernaryOperatorSniff implements PHP_CodeSniffer
             $startPtr = $this->findPrevious($allowed, $tokens, $stackPtr - 1, 0, null);
             $endPtr   = $phpcsFile->findNext(array(T_CLOSE_TAG, T_SEMICOLON), $stackPtr + 1);
 
-            if ($tokens[$startPtr]['code'] === T_SEMICOLON) {
+            if ($startPtr === false || $tokens[$startPtr]['code'] === T_SEMICOLON) {
                 $error = 'Ternary operation must occur within assignment, echo or return statement';
                 $phpcsFile->addError($error, $stackPtr, 'TernaryStart');
             }
@@ -251,7 +251,7 @@ class Berrybird_Sniffs_Operators_TernaryOperatorSniff implements PHP_CodeSniffer
      * @param   integer         $start          Index from which to begin
      * @param   integer         $end            Index at which to abort
      * @param   integer         $parenthesis    Index of the opening parenthesis or NULL
-     * @return  integer|false   Index of the next token or FALSE
+     * @return  integer|false   Index of the previous token or FALSE
      */
     protected function findPrevious($type, $tokens, $start, $end, $parenthesis)
     {
@@ -276,5 +276,7 @@ class Berrybird_Sniffs_Operators_TernaryOperatorSniff implements PHP_CodeSniffer
                 }
             }
         }
+
+        return false;
     }
 }

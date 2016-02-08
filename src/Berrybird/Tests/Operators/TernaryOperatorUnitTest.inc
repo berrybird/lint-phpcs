@@ -1,4 +1,5 @@
 <?php
+$foo ? 'a' : null;
 $foo = ($bar == $foo) ? $foo : $bar;
 $foo = $bar ? $foo : $bar;
 $foo = ($bar == $foo) ? ($foo) : ($bar);
@@ -25,3 +26,4 @@ $foo = TRUE ? Auth::instance()->username() : Auth::instance()->user()->guest;
 $var = Auth::instance()->logged_in()
     ? Auth::instance()->get_user()->profile->default_language
     : $lol;
+($foo) ? 'a' : null;
